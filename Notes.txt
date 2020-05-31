@@ -1,0 +1,59 @@
+ng g c product-add --skipTests=true   == ng geneate new componenet== c for componenet == C for class == first letter are also accepted==
+			format"   ng generate <schematic>  " 
+			<schematic> can be 
+			appShell
+    application
+    class
+    component
+    directive
+    enum
+    guard
+    interface
+    library
+    module
+    pipe
+    service
+    serviceWorker
+    universal
+    webWorker
+	
+-=====
+npm install ng2-slim-loading-bar --save  
+ this command will install an new library which can be used for improving loook and feel.
+ 
+ if you install this, this is thrrd part module. so you need to install npm install rxjs-compat --save  to slve the error. angular are not compatible if you don install and also if you creating andy module like this, you have to execute this script
+ 
+ whenever you want to addd some new graph or table to enhanec look and feel , use npm install, search for those library and import it in app module.ts and you can work with it. Keep exporing this to learn
+ ===========
+ Rouiting is important . The path variable defined in app-module.ts, you have to use same path in app.component.html as routerlink, for navigating to that perticular angular conponenet. i use routerlink so far, there is other way too, keep exporing
+ ==========
+ There is file of style.css which is auto generated while creating a new project. This file, you can import the style sheet you are using. you haveimported ng2-slim-loading-bar in your project
+ ====
+ Adding Router Events== this has to be add in componenet.ts, you can add at any .ts file-- you need otc check 
+Angular RouterModule gives us the following event modules.
+
+NavigationStart
+NavigationEnd
+NavigationError
+NavigationCancel
+Router
+Event
+
+============
+ng g service products --skipTests=true---> this will cerate the service , like web service in JAVA, you used http service for delete or edit in angular basic project
+=====Need to dig more on this creating backedn api
+Creating api angular service which will run on node JS, we done angualr JS8 front end programming , now node Js backkedn we are doing
+steps:
+npm init -y   == This will cerate package.json , necessory for build
+
+npm install express body-parser cors mongoose --save  ==npm install express body-parser cors mongoose --save  
+
+npm install nodemon --save-dev   == to start the sever node js, we dont need to start the server again again
+
+
+Coding is same like angular js, you need to create models , routes folder and configuration 
+
+Server.js is the file created form backedn service, if npm start console will be closed, then server will throw error and you wont be able to click submit button
+
+
+======
